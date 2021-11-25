@@ -1,7 +1,14 @@
 # Chatbot-with-Transformer
 
 This Chatbot is based on Transformer model. Transformer is a deep machine learning model used in NLP area for various tasks such as machine translation and text summarization.
-The code is basically refered to the tensorflow [chatbot](https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html) and [language understanding](https://www.tensorflow.org/text/tutorials/transformer)  tutorial.
+The code is basically refered to the tensorflow [chatbot](https://blog.tensorflow.org/2019/05/transformer-chatbot-tutorial-with-tensorflow-2.html) and [language understanding](https://www.tensorflow.org/text/tutorials/transformer) tutorial.
+
+`chatbot_transformers.ipynb` : was used to train and save the weights of the model
+
+`model.py` : contains the model with the saved weights 
+
+`app.py` : the flask app
+
 - Results of transformer model
 
 ![Alt text](results/chatbot_screenshot1.png?raw=true "chatbot")
